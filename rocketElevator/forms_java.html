@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>lighten</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+ 
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader --> 
+      <!-- header -->
+      <header>
+        <!-- header inner -->
+        <div class="header">
+         <div class="head_top">
+            <div class="container">
+               <div class="row">
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="top-box">
+                     <ul class="sociel_link">
+                      
+                  </ul>
+                 </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="top-box">
+                    
+                 </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+               <div class="full">
+                  <div class="center-desk">
+                     <div class="logo"> <a href="index.html"><img src="images/R2.png" alt="logo"/></a> </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-9 col-sm-9">
+               <div class="menu-area">
+                  <div class="limit-box">
+                     <nav class="main-menu">
+                        <ul class="menu-area-main">
+                           <li class="active"> <a href="index.html">HOME</a> </li>
+                           <li> <a href="index.html#SERVICES">SERVICES</a> </li>
+                           <li> <a href="index.html#PORTFOLIO">PORTFOLIO</a> </li>                         <!-- my nav -->
+                           <li> <a href="index.html#NEWS">NEWS</a> </li>
+                           <li> <a href="index.html#CLIENTS">CLIENTS</a> </li>
+                           <li> <a href="residentiel.html">Residentiel</a> </li>
+                              <li> <a href="CorporationDetail.html">Corporation</a> </li>
+                              <li> <a href="forms_java.html">Evaluationjavaform</a> </li>
+                         </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+      <!-- end header inner --> 
+      </header>
+      <!-- end header -->
+      <div class="whyschose">
+         <div class="container">
+
+            <div class="row">
+               <div class="col-md-7 offset-md-3">
+                  <div class="title">
+                     <h2>Calculation <strong class="black"></h2>
+                     <span>Evaluation for your elevator!</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="choose_bg">
+         <div class="container">
+            <div class="white_bg">
+            <div class="row">
+               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="for_box">
+                   <i><img src="https://i.pinimg.com/originals/f7/ea/24/f7ea24b070efe6d899d0adf5bfa48f47.jpg"/></i>
+                     <h3>Residentiel</h3>
+                     <br></br>
+                     <select id="item1" name="Item 1">
+                        <option></option>
+                        <option value="1">STANDARD</option>
+                        <option value="2">PREMIUM</option>
+                        <option value="3">EXCELIUM</option>
+
+                                                                                                       <!-- calculation for Residentiel -->
+                      </select>
+                  
+                      <button onclick="Residentiel()">Go!</button>
+                     <p style="color: gold;">number-of-apartments</p>
+                     <input type="text" id="num1">
+                     <br></br>
+                     <p style="color: gold;">number-of-floors</p>
+                     <input type="text" id="num2">
+                     <p style="color: gold;">number-of-basements</p>
+                     <input type="text" id="num3">
+                     <br></br>
+                    
+                     <p id="answer"><small></small></p>
+                     <p id="reponse3"><small></small></p>
+
+                     <p id="answer2"><small></small></p>
+                     <p id="reponse"><small></small></p>
+                     <p id="installation"><small></small></p>
+                     <p id="reponse1"><small></small></p>  
+                     
+                     
+                    
+
+
+                     
+                     
+                  </div>
+               </dir>
+               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="for_box">
+                     <i><img src="https://i.pinimg.com/originals/0d/74/a2/0d74a26e1925864af119b3317c22d808.jpg"/></i>
+                     <h3>Commercial</h3>
+                   
+                     
+                                                                                                                           <!-- calculation for Commercial -->
+                     <select id="item2" name="Item 2">
+                        <option></option>
+                        <option value="1">STANDARD</option>
+                        <option value="2">PREMIUM</option>
+                        <option value="3">EXCELIUM</option>
+
+                        
+                      </select>
+
+                                                                                                                           
+                     <button onclick="commercial()">Go!</button>
+                     <p style="color: gold;">The number of elevator cages to be deployed</p>
+                     <input type="text" id="lol1">
+                     <br></br>
+                     <p style="color: gold;">The number of floors contained in the building, excluding basements</p>
+                     <input type="text" id="lol2">
+                     <p style="color: gold;">The number of basements contained in the building</p>
+                     <input type="text" id="lol3">
+                     <p style="color: gold;">The number of parking space available</p>
+                     <input type="text" id="lol">
+                     <p style="color: gold;">The number of parking space available</p>
+                     <input type="text" id="lol">
+                     <p style="color: gold;">number-of-basements</p>
+                     <input type="text" id="lol">
+                     <br></br>
+                     
+                  </div>
+                  <p id="a"><small></small></p>
+                  <p id="b"><small></small></p>
+                  <p id="c"><small></small></p>
+                  <p id="d"><small></small></p>
+                  
+               </dir>
+               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="for_box">
+               
+
+                     <i><img src="https://media.glassdoor.com/l/a6/bf/c6/e0/schindler.jpg"/></i>
+
+                     <h3>Corporate/Hybride</h3>
+                     
+                     <select id="item3" name="Item 3">
+                        <option></option>
+                        <option value="1">STANDARD</option>
+                        <option value="2">PREMIUM</option>
+                        <option value="3">EXCELIUM</option>
+
+                                                                                                    <!-- Corporate/Hybride -->
+                      </select>
+                      <button onclick="CorporateHybride()">Go!</button> 
+                     
+                     <p style="color: gold;">The maximum number of occupants per floor</p>
+                     <input type="text" id="lol20">
+                     <br></br>
+                     <p style="color: gold;">The number of floors contained in the building, excluding basements</p>
+                     <input type="text" id="lol21">
+                     <p style="color: gold;">The number of separate tenant companies</p>
+                     <input type="text" id="lol22">
+                     <p style="color: gold;">The number of basements contained in the building</p>
+                     <input type="text" id="lol22">
+                     <p style="color: gold;">The number of parking spaces available</p>
+                     <input type="text" id="lol22">
+                     <br></br>
+                                 </div>
+                                 <p id="a1"><small></small></p>
+                  <p id="a2"><small></small></p>
+                  <p id="a3"><small></small></p>
+                  <p id="a4"><small></small></p>
+               </dir>
+            
+              
+            </div>
+         </div>
+       </div>
+      </div>
+   </div>
+  
+      <footr>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 offset-md-3">
+                   
+                  </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="contact">
+                     
+                     <h3>conatct us</h3>
+                     <span>4468 Wellington St Suite 204, Verdun, Quebec H4G 1W5 (581) 701-0303</span>
+                        <!--Google map-->
+                        <br></br>
+                        <br></br>
+                        <br></br>
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
+   <iframe src="https://maps.google.com/maps?q=quebec&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+     style="border:0" allowfullscreen></iframe>
+ </div>
+ 
+ <!--Google Maps-->
+                  </div>
+               </div>
+                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="contact">
+                     <h3>ADDITIONAL LINKS</h3>
+                     <ul class="lik">
+                        
+                          <li> <a href="CONTACTS">Contact us</a></li>
+                     </ul>
+                  </div>
+               </div>
+                
+                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="contact">
+                     <h3>About Rocket Elevator</h3>
+                     <span>This business for sale has experienced exceptional growth since its inception providing a full range of elevator management services to its loyal government and private sector clientele located throughout eastern ON and western QC.</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+           
+         
+      </div>
+      </footr>
+      <!-- end footer -->
+      <!-- Javascript files--> 
+      <script src="js/rocketElevatorEvaluation.js"></script>   <!-- Javascript files for the calculation for the elevator--> 
+      <script src="js/jquery.min.js"></script> 
+      <script src="js/popper.min.js"></script> 
+      <script src="js/bootstrap.bundle.min.js"></script> 
+      <script src="js/jquery-3.0.0.min.js"></script> 
+      <script src="js/plugin.js"></script> 
+      <!-- sidebar --> 
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+         
+         $(".zoom").hover(function(){
+         
+         $(this).addClass('transition');
+         }, function(){
+         
+         $(this).removeClass('transition');
+         });
+         });
+         
+      </script> 
+   </body>
+</html>
